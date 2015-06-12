@@ -1,0 +1,30 @@
+ digraph GamerGate {
+
+    G1 -> G2 [label="Trying to keep out"]
+
+    G1 -> G3 [label="Fighting"]
+
+    G2 -> G3 [label="Attacking"]
+    
+    G2 -> G4 [label="Attacking"]
+    
+    G3 -> G1 [label="Covering up"]
+    
+    G3 -> G2 [label="Covering"]
+
+    G4 -> G2 [label="Fighting"]
+
+    G4 -> G1 [label="Crossfire"]
+
+    G5 -> G1 [label="Targeting women"]
+
+    G1 [label="People who are in fact concerned"]
+
+    G2 [label="Trolls and jerks"]
+
+    G3 [label="Game journalists"]
+
+    G4 [label="Social justice activists"]
+
+    G5 [label="Concerned women haters"]
+ }
